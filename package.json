@@ -1,0 +1,14 @@
+{
+  "name": "sqlocal-demo",
+  "private": "true",
+  "packageManager": "pnpm@10.11.0",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
+  },
+  "prettier": {
+    "semi": false
+  }
+}

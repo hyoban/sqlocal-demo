@@ -1,0 +1,23 @@
+{
+  "name": "mobile",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --clear"
+  },
+  "dependencies": {
+    "expo": "53.0.9",
+    "expo-router": "5.0.7",
+    "expo-splash-screen": "0.30.8",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "store": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "7.27.1",
+    "@types/react": "19.0.14",
+    "babel-plugin-inline-import": "3.0.0",
+    "typescript": "5.8.3"
+  }
+}

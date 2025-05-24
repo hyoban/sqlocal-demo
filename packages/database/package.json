@@ -1,0 +1,20 @@
+{
+  "name": "database",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./service/*": "./src/service/*"
+  },
+  "main": "./src/index.ts",
+  "scripts": {},
+  "dependencies": {
+    "drizzle-orm": "0.43.1",
+    "expo-sqlite": "15.2.10",
+    "sqlocal": "0.14.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "store",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "main": "./src/index.ts",
+  "scripts": {},
+  "dependencies": {
+    "database": "workspace:*",
+    "zustand": "5.0.5",
+    "react": "19.0.0"
+  }
+}
